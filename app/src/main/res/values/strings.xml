@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Student Helper</string>
+    <string name="LK"> Личный кабинет студента</string>
+    <string name="userName">Имя пользователя</string>
+    <string name="pass">Пароль</string>
+    <string name="btnLogin">Войти</string>
+
+    <string name="userLogin">User Login</string>
+    <string name="learnActivity">Учебная деятельность</string>
+    <string name="myStepa">Моя степендия</string>
+    <string name="mail">Корпоративная почта</string>
+    <string name="rasp">Мое расписание</string>
+    <string name="sitePrepod">Сайты преподавателей</string>
+    <string name="pay">Оплата услуг</string>
+
+    <string name="btnLogout">Выход из аккаунта</string>
+    <string name="msgOut">Нажмите еще раз, чтобы выйти</string>
+
+    <string name="educPay">Образовнаие</string>
+    <string name="internet">Связь</string>
+    <string name="dom">Проживание в общежитие</string>
 </resources>
