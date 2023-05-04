@@ -1,13 +1,16 @@
 <resources>
     <string name="app_name">Student Helper</string>
-    <string name="LK"> Личный кабинет студента</string>
+    <string name="LK" translatable="false"> Личный кабинет студента</string>
     <string name="userName">Имя пользователя</string>
     <string name="pass">Пароль</string>
     <string name="btnLogin">Войти</string>
+    <string name="errorEmail">Логин введен неверно, пожалуйста введите в формате aaa198@tpu.ru</string>
+    <string name="emptyData">Пожалуйста, введите логин и пароль</string>
+    <string name="userNameHint">aaa198@tpu.ru</string>
 
     <string name="userLogin">User Login</string>
     <string name="learnActivity">Учебная деятельность</string>
-    <string name="myStepa">Моя степендия</string>
+    <string name="myStepa">Моя стипендия</string>
     <string name="mail">Корпоративная почта</string>
     <string name="rasp">Мое расписание</string>
     <string name="sitePrepod">Сайты преподавателей</string>

@@ -17,8 +17,11 @@ class MainMenu : AppCompatActivity() {
 
         val sharedPreference:SharedPreference = SharedPreference(this)
         binding.userLogin.setText(sharedPreference.getValueString("login"))
+        binding.userLogin.setText(binding.userLogin.text.removeRange(binding.userLogin.length()-7..binding.userLogin.length()-1))
 
         binding.btnLogout.setOnClickListener{
+            sharedPreference.save("login","")
+            sharedPreference.save("password","")
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
