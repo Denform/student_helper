@@ -16,6 +16,7 @@
         tools:targetApi="31">
         <activity
             android:name=".PayDormitory"
+            android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -23,6 +24,7 @@
         </activity>
         <activity
             android:name=".PayInternet"
+            android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -30,6 +32,7 @@
         </activity>
         <activity
             android:name=".PayEducation"
+            android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -37,6 +40,7 @@
         </activity>
         <activity
             android:name=".Pay"
+            android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -44,6 +48,7 @@
         </activity>
         <activity
             android:name=".Rasp"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -51,6 +56,7 @@
         </activity>
         <activity
             android:name=".Mail"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -58,6 +64,7 @@
         </activity>
         <activity
             android:name=".MainMenu"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -65,6 +72,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
