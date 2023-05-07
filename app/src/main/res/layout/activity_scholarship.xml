@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    tools:context=".Scholarship">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/paySheet"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/style_edit_text"
+        android:gravity="center"
+        android:text="@string/paySheet"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/accrued"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Spinner
+        android:id="@+id/monthsSpinner"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="64dp"
+        android:popupBackground="@color/white"
+        android:background="@drawable/style_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/accrued"
+        app:layout_constraintStart_toEndOf="@+id/paySheet"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="MissingConstraints">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/accrued"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_edit_text"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Начислено:"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paySheet" />
+
+    <TextView
+        android:id="@+id/withheld"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/style_edit_text"
+        android:gravity="center"
+        android:text="Удержано:"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accrued" />
+
+    <TextView
+        android:id="@+id/paid"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/style_edit_text"
+        android:gravity="center"
+        android:text="Выплачено:"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/withheld" />
+
+    <TextView
+        android:id="@+id/personalAccount"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/style_edit_text"
+        android:gravity="center"
+        android:text="Мой лицевой счет:"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
