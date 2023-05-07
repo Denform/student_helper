@@ -63,6 +63,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Scholarship"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PersonalPage"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainMenu"
             android:screenOrientation="portrait"
             android:exported="true">

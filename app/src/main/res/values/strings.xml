@@ -22,4 +22,7 @@
     <string name="educPay">Образовнаие</string>
     <string name="internet">Связь</string>
     <string name="dom">Проживание в общежитие</string>
+
+    <string name="paySheet">Расчетный листок за </string>
+
 </resources>

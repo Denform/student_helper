@@ -40,6 +40,16 @@ class MainMenu : AppCompatActivity() {
             val intent = Intent(this, Pay::class.java)
             startActivity(intent)
         }
+
+        binding.MyStepa.setOnClickListener{
+            val intent = Intent(this, Scholarship::class.java)
+            startActivity(intent)
+        }
+
+        binding.sitePrepod.setOnClickListener{
+            val intent = Intent(this, PersonalPage::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onBackPressed() {
